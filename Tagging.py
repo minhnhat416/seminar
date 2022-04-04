@@ -15,7 +15,7 @@ font1=('Times',16,'underline')
 t1.insert(END, "Hello word")
 
 # Tạo tag_name 'my_hg'
-t1.tag_add("my_hg", "1.0", "1.9")
+t1.tag_add("my_hg", "1.0", "1.2")
 t1.tag_config("my_hg",background="yellow",foreground="red",font=font1)
 
 # xóa tag_name('my_hg') bằng button
